@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Pramod Bhandare
+        </title>
+    </head>
+    <body>
+        <form>
+            <h1>
+                Payment Form 
+            </h1>
+            <h2>
+                Custamer Details
+            </h2>
+            <p>
+                Name : <input type="text" name="name1"  required >
+            </p>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <p>
+                       Male : <input type="radio" name="Gender" id="male1" required>  Female : <input type="radio" name="Gender" id="female1" required>
+                    </p>
+                </fieldset>
+                <p>
+                    Address : <textarea cols="60" rows="10" id="Address"></textarea> 
+                </p>
+            <p>
+                Email : <input type="email" name="email1" id="email1" required>
+            </p>
+            <p>
+                Pincode : <input type="number" name="num1" id="num1" required>
+            </p>
+            <h1>Payment Information</h1>
+            <p>
+                Card type : <select name="text" id="text1">
+                    <option value="">---Select a Type Of Card---</option>
+                    <option value="Ruplay">Ruplay</option>
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">MasterCard</option>
+                </select>
+            </p>
+            <p>
+               Card Number <input type="number" name="card_number" id="card_number" required>
+            </p>
+            <p>
+                Expiration Date : <input type="date" name="Date1" id="Date1" required>
+            </p>
+            <p>
+                CVV : <input type="password" name="Number1" id="Number1" required>
+            </p>
+            <input type="submit" value="Pay Now">
+        </form>
+    </body>
+</html>
